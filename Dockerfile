@@ -8,7 +8,7 @@ ENV CONVENTIONAL_CHANGELOG_VERSION=4.6.3
 ENV SEMANTIC_RELEASE_VERSION=19.0.2
 
 # renovate: datasource=npm depName=@semantic-release/github
-ENV SEMANTIC_RELEASE_GITHUB_VERSION=8.0.2
+ENV SEMANTIC_RELEASE_GITHUB_VERSION=8.0.4
 
 # renovate: datasource=npm depName=@semantic-release/gitlab
 ENV SEMANTIC_RELEASE_GITLAB_VERSION=8.0.1
