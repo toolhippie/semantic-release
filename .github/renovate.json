@@ -3,10 +3,12 @@
     "extends": [
         "github>webhippie/renovate:docker"
     ],
-    "packageRules": [{
-        "groupName": "semantic-release packages",
-        "matchDatasources": [
-            "npm"
-        ]
-    }]
+    "packageRules": [
+        {
+            "groupName": "semantic-release packages",
+            "matchDatasources": [
+                "npm"
+            ]
+        }
+    ]
 }
