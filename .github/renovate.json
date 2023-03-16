@@ -10,5 +10,8 @@
                 "npm"
             ]
         }
+    ],
+    "ignoreDeps": [
+        "docker/build-push-action"
     ]
 }
