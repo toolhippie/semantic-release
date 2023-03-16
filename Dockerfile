@@ -1,4 +1,4 @@
-FROM webhippie/alpine:3.17
+FROM ghcr.io/webhippie/alpine:3.17
 ENTRYPOINT [""]
 
 # renovate: datasource=npm depName=conventional-changelog-conventionalcommits
