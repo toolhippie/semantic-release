@@ -11,10 +11,10 @@ ENV SEMANTIC_RELEASE_VERSION=20.1.3
 ENV SEMANTIC_RELEASE_GITHUB_VERSION=8.0.7
 
 # renovate: datasource=npm depName=@semantic-release/gitlab
-ENV SEMANTIC_RELEASE_GITLAB_VERSION=12.0.0
+ENV SEMANTIC_RELEASE_GITLAB_VERSION=12.0.1
 
 # renovate: datasource=npm depName=@semantic-release/changelog
-ENV SEMANTIC_RELEASE_CHANGELOG_VERSION=6.0.2
+ENV SEMANTIC_RELEASE_CHANGELOG_VERSION=6.0.3
 
 # renovate: datasource=npm depName=@semantic-release/commit-analyzer
 ENV SEMANTIC_RELEASE_COMMIT_ANALYZER_VERSION=9.0.2
