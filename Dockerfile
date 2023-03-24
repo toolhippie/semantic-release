@@ -5,7 +5,7 @@ ENTRYPOINT [""]
 ENV CONVENTIONAL_CHANGELOG_VERSION=5.0.0
 
 # renovate: datasource=npm depName=semantic-release
-ENV SEMANTIC_RELEASE_VERSION=20.1.3
+ENV SEMANTIC_RELEASE_VERSION=21.0.0
 
 # renovate: datasource=npm depName=@semantic-release/github
 ENV SEMANTIC_RELEASE_GITHUB_VERSION=8.0.7
