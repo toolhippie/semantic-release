@@ -2,7 +2,7 @@ FROM ghcr.io/dockhippie/alpine:3.18
 ENTRYPOINT [""]
 
 # renovate: datasource=npm depName=conventional-changelog-conventionalcommits
-ENV CONVENTIONAL_CHANGELOG_VERSION=5.0.0
+ENV CONVENTIONAL_CHANGELOG_VERSION=6.0.0
 
 # renovate: datasource=npm depName=semantic-release
 ENV SEMANTIC_RELEASE_VERSION=21.0.3
