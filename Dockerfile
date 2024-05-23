@@ -2,22 +2,22 @@ FROM ghcr.io/dockhippie/alpine:3.20
 ENTRYPOINT [""]
 
 # renovate: datasource=npm depName=conventional-changelog-conventionalcommits
-ENV CONVENTIONAL_CHANGELOG_VERSION=7.0.2
+ENV CONVENTIONAL_CHANGELOG_VERSION=8.0.0
 
 # renovate: datasource=npm depName=semantic-release
-ENV SEMANTIC_RELEASE_VERSION=22.0.12
+ENV SEMANTIC_RELEASE_VERSION=23.1.1
 
 # renovate: datasource=npm depName=@semantic-release/github
-ENV SEMANTIC_RELEASE_GITHUB_VERSION=9.2.6
+ENV SEMANTIC_RELEASE_GITHUB_VERSION=10.0.5
 
 # renovate: datasource=npm depName=@semantic-release/gitlab
-ENV SEMANTIC_RELEASE_GITLAB_VERSION=12.1.1
+ENV SEMANTIC_RELEASE_GITLAB_VERSION=13.1.0
 
 # renovate: datasource=npm depName=@semantic-release/changelog
 ENV SEMANTIC_RELEASE_CHANGELOG_VERSION=6.0.3
 
 # renovate: datasource=npm depName=@semantic-release/commit-analyzer
-ENV SEMANTIC_RELEASE_COMMIT_ANALYZER_VERSION=11.1.0
+ENV SEMANTIC_RELEASE_COMMIT_ANALYZER_VERSION=12.0.0
 
 # renovate: datasource=npm depName=@semantic-release/git
 ENV SEMANTIC_RELEASE_GIT_VERSION=10.0.1
