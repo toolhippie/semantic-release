@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/alpine:3.21
+FROM ghcr.io/dockhippie/alpine:3.22
 ENTRYPOINT [""]
 
 # renovate: datasource=npm depName=conventional-changelog-conventionalcommits
