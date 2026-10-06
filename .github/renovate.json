@@ -2,5 +2,19 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
         "github>toolhippie/.github//renovate/preset"
+    ],
+    "packageRules": [
+        {
+            "matchDatasources": [
+                "npm"
+            ],
+            "matchPackageNames": [
+                "conventional-changelog-conventionalcommits"
+            ],
+            "matchUpdateTypes": [
+                "major"
+            ],
+            "enabled": false
+        }
     ]
 }
